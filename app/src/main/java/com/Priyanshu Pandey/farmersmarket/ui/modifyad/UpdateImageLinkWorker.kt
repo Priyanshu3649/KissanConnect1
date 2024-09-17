@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.modifyad
+package com.example.kisaanconnect.ui.modifyad
 
 import android.app.PendingIntent
 import android.content.Context
@@ -6,10 +6,10 @@ import android.util.Log
 import androidx.navigation.NavDeepLinkBuilder
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
-import com.ilatyphi95.farmersmarket.HomeActivity
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.firebase.services.ProductServices
-import com.ilatyphi95.farmersmarket.notifications.NotificationService
+import com.example.kisaanconnect.HomeActivity
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.firebase.services.ProductServices
+import com.example.kisaanconnect.notifications.NotificationService
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 const val KEY_PRODUCT_ID = "product-id"

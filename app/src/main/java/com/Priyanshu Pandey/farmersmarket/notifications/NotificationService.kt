@@ -1,10 +1,10 @@
-package com.ilatyphi95.farmersmarket.notifications
+package com.example.kisaanconnect.notifications
 
 import android.app.PendingIntent
 import android.content.Context
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import com.ilatyphi95.farmersmarket.R
+import com.example.kisaanconnect.R
 
 const val UPLOAD_IMAGE_NOTIFICATION_CHANNEL_ID = "upload_image_notification_channel"
 const val UPLOAD_ID = 300

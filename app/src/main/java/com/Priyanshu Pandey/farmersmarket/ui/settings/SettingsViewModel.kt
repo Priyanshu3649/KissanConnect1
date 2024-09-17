@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.settings
+package com.example.kisaanconnect.ui.settings
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

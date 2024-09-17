@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.chat
+package com.example.kisaanconnect.ui.chat
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,9 +12,9 @@ import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.navArgs
 import androidx.navigation.ui.NavigationUI
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.databinding.FragmentChatBinding
-import com.ilatyphi95.farmersmarket.firebase.services.ProductServices
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.databinding.FragmentChatBinding
+import com.example.kisaanconnect.firebase.services.ProductServices
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 @ExperimentalCoroutinesApi

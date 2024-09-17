@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.ads
+package com.example.kisaanconnect.ui.ads
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter

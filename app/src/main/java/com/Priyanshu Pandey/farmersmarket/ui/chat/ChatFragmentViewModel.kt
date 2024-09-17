@@ -1,10 +1,10 @@
-package com.ilatyphi95.farmersmarket.ui.chat
+package com.example.kisaanconnect.ui.chat
 
 import androidx.lifecycle.*
-import com.ilatyphi95.farmersmarket.data.entities.ChatMessage
-import com.ilatyphi95.farmersmarket.data.entities.User
-import com.ilatyphi95.farmersmarket.firebase.services.ProductServices
-import com.ilatyphi95.farmersmarket.utils.*
+import com.example.kisaanconnect.data.entities.ChatMessage
+import com.example.kisaanconnect.data.entities.User
+import com.example.kisaanconnect.firebase.services.ProductServices
+import com.example.kisaanconnect.utils.*
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.launch
 

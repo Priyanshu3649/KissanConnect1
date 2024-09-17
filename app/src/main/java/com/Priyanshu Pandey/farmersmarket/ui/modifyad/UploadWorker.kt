@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.modifyad
+package com.example.kisaanconnect.ui.modifyad
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -10,10 +10,10 @@ import android.util.Log
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import androidx.work.workDataOf
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.firebase.services.ProductServices
-import com.ilatyphi95.farmersmarket.notifications.NotificationService
-import com.ilatyphi95.farmersmarket.notifications.UPLOAD_IMAGE_NOTIFICATION_CHANNEL_ID
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.firebase.services.ProductServices
+import com.example.kisaanconnect.notifications.NotificationService
+import com.example.kisaanconnect.notifications.UPLOAD_IMAGE_NOTIFICATION_CHANNEL_ID
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 const val KEY_IMAGE_URL = "key-image-url"

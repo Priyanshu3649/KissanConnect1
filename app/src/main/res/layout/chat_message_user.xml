@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.ilatyphi95.farmersmarket.data.entities.ChatMessage" />
+            type="com.example.kisaanconnect.data.entities.ChatMessage" />
 
     </data>
 

@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.registration
+package com.example.kisaanconnect.ui.registration
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -20,9 +20,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.transition.TransitionInflater
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.databinding.FragmentSignUpBinding
-import com.ilatyphi95.farmersmarket.utils.sendVerificationEmail
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.databinding.FragmentSignUpBinding
+import com.example.kisaanconnect.utils.sendVerificationEmail
 import kotlinx.android.synthetic.main.fragment_sign_up.*
 
 

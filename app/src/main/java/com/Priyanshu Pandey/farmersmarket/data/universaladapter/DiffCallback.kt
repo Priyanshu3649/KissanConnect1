@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.data.universaladapter
+package com.example.kisaanconnect.data.universaladapter
 
 import android.annotation.SuppressLint
 import androidx.recyclerview.widget.DiffUtil

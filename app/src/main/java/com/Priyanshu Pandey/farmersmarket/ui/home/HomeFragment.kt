@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.home
+package com.example.kisaanconnect.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,10 +10,10 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.ilatyphi95.farmersmarket.data.ProductAdapter
-import com.ilatyphi95.farmersmarket.databinding.FragmentHomeBinding
-import com.ilatyphi95.farmersmarket.firebase.services.ProductServices
-import com.ilatyphi95.farmersmarket.utils.EventObserver
+import com.example.kisaanconnect.data.ProductAdapter
+import com.example.kisaanconnect.databinding.FragmentHomeBinding
+import com.example.kisaanconnect.firebase.services.ProductServices
+import com.example.kisaanconnect.utils.EventObserver
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch

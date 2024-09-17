@@ -7,7 +7,7 @@
 
 <!--    <fragment-->
 <!--        android:id="@+id/splashFragment2"-->
-<!--        android:name="com.ilatyphi95.farmersmarket.ui.registration.SplashFragment"-->
+<!--        android:name="com.example.kisaanconnect.ui.registration.SplashFragment"-->
 <!--        android:label="SplashFragment"-->
 <!--        tools:layout="@layout/fragment_splash">-->
 <!--        <action-->
@@ -21,7 +21,7 @@
 <!--    </fragment>-->
 <!--    <fragment-->
 <!--        android:id="@+id/loginFragment"-->
-<!--        android:name="com.ilatyphi95.farmersmarket.ui.registration.LoginFragment"-->
+<!--        android:name="com.example.kisaanconnect.ui.registration.LoginFragment"-->
 <!--        android:label="LoginFragment"-->
 <!--        tools:layout="@layout/fragment_login">-->
 <!--        <action-->
@@ -35,7 +35,7 @@
 <!--    </fragment>-->
 <!--    <fragment-->
 <!--        android:id="@+id/signUpFragment"-->
-<!--        android:name="com.ilatyphi95.farmersmarket.ui.registration.SignUpFragment"-->
+<!--        android:name="com.example.kisaanconnect.ui.registration.SignUpFragment"-->
 <!--        android:label="SignUpFragment"-->
 <!--        tools:layout="@layout/fragment_sign_up">-->
 <!--        <action-->
@@ -46,7 +46,7 @@
 <!--    </fragment>-->
 <!--    <activity-->
 <!--        android:id="@+id/homeActivity"-->
-<!--        android:name="com.ilatyphi95.farmersmarket.HomeActivity"-->
+<!--        android:name="com.example.kisaanconnect.HomeActivity"-->
 <!--        android:label="activity_home"-->
 <!--        tools:layout="@layout/activity_home" />-->
 </navigation>

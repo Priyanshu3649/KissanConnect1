@@ -1,14 +1,14 @@
-package com.ilatyphi95.farmersmarket.data
+package com.example.kisaanconnect.data
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.paging.PagingDataAdapter
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.data.universaladapter.BindingViewHolder
-import com.ilatyphi95.farmersmarket.data.universaladapter.DiffCallback
-import com.ilatyphi95.farmersmarket.data.universaladapter.RecyclerItem
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.data.universaladapter.BindingViewHolder
+import com.example.kisaanconnect.data.universaladapter.DiffCallback
+import com.example.kisaanconnect.data.universaladapter.RecyclerItem
 
 class ProductAdapter() :
     PagingDataAdapter<RecyclerItem, BindingViewHolder>(DiffCallback()) {

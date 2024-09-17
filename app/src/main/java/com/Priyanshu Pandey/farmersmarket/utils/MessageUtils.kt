@@ -1,11 +1,11 @@
-package com.ilatyphi95.farmersmarket.utils
+package com.example.kisaanconnect.utils
 
 import androidx.annotation.LayoutRes
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.BR
-import com.ilatyphi95.farmersmarket.data.entities.ChatMessage
-import com.ilatyphi95.farmersmarket.data.entities.Message
-import com.ilatyphi95.farmersmarket.data.universaladapter.RecyclerItem
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.BR
+import com.example.kisaanconnect.data.entities.ChatMessage
+import com.example.kisaanconnect.data.entities.Message
+import com.example.kisaanconnect.data.universaladapter.RecyclerItem
 
 const val DATE_SEPARATOR = "this-is-date-separator"
 

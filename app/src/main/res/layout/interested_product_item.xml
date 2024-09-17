@@ -6,10 +6,10 @@
     <data>
         <variable
             name="viewModel"
-            type="com.ilatyphi95.farmersmarket.utils.AddItemViewModel" />
+            type="com.example.kisaanconnect.utils.AddItemViewModel" />
 
-        <import type="com.ilatyphi95.farmersmarket.utils.MoneyUtilsKt" />
-        <import type="com.ilatyphi95.farmersmarket.utils.FormatterUtilKt" />
+        <import type="com.example.kisaanconnect.utils.MoneyUtilsKt" />
+        <import type="com.example.kisaanconnect.utils.FormatterUtilKt" />
 
     </data>
 

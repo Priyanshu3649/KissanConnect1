@@ -6,12 +6,12 @@ apply plugin: "androidx.navigation.safeargs.kotlin"
 apply plugin: 'com.google.firebase.crashlytics'
 
 android {
-    namespace 'com.ilatyphi95.farmersmarket'
+    namespace 'com.example.kisaanconnect'
     compileSdk 34
     buildToolsVersion "34.0.0"
 
     defaultConfig {
-        applicationId "com.ilatyphi95.farmersmarket"
+        applicationId "com.example.kisaanconnect"
         minSdkVersion 19
         targetSdkVersion 34
         multiDexEnabled true
@@ -59,6 +59,8 @@ repositories {
 dependencies {
     implementation 'androidx.preference:preference-ktx:1.2.1'
     implementation 'com.google.firebase:firebase-auth-ktx:23.0.0'
+    implementation 'com.google.firebase:firebase-firestore:25.1.0'
+    implementation 'com.google.firebase:firebase-inappmessaging-display:21.0.0'
     kapt 'com.github.bumptech.glide:compiler:4.14.2'
 
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'

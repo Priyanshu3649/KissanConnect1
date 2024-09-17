@@ -1,11 +1,11 @@
-package com.ilatyphi95.farmersmarket.utils
+package com.example.kisaanconnect.utils
 
 import android.util.Log
 import android.view.View
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.ui.registration.SignUpFragment
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.ui.registration.SignUpFragment
 
 
 fun sendVerificationEmail(view: View) {

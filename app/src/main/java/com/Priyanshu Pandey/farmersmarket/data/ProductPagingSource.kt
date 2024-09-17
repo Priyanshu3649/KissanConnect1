@@ -1,10 +1,10 @@
-package com.ilatyphi95.farmersmarket.data
+package com.example.kisaanconnect.data
 
 import androidx.paging.PagingSource
 import com.google.firebase.firestore.Query
 import com.google.firebase.firestore.QuerySnapshot
 import com.google.firebase.firestore.ktx.toObjects
-import com.ilatyphi95.farmersmarket.data.entities.Product
+import com.example.kisaanconnect.data.entities.Product
 import kotlinx.coroutines.tasks.await
 
 class ProductPagingSource(private val query: Query) : PagingSource<QuerySnapshot, Product>() {

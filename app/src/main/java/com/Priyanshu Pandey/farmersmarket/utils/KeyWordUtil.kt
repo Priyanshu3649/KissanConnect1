@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.utils
+package com.example.kisaanconnect.utils
 
 import org.paukov.combinatorics3.Generator
 import java.util.*

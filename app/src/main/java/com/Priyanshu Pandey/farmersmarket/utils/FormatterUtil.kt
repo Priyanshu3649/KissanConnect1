@@ -1,10 +1,10 @@
-package com.ilatyphi95.farmersmarket.utils
+package com.example.kisaanconnect.utils
 
 import android.content.Context
 import com.google.firebase.Timestamp
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.data.entities.AdItem
-import com.ilatyphi95.farmersmarket.data.entities.Product
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.data.entities.AdItem
+import com.example.kisaanconnect.data.entities.Product
 import org.threeten.bp.Instant
 import org.threeten.bp.LocalDate
 import org.threeten.bp.LocalDateTime

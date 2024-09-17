@@ -1,13 +1,13 @@
-package com.ilatyphi95.farmersmarket.data.repository
+package com.example.kisaanconnect.data.repository
 
 import android.net.Uri
 import androidx.lifecycle.liveData
 import com.google.firebase.Timestamp
-import com.ilatyphi95.farmersmarket.data.entities.*
-import com.ilatyphi95.farmersmarket.data.repository.ProductGenerator.generateLocation
-import com.ilatyphi95.farmersmarket.utils.longToLocalDateTime
-import com.ilatyphi95.farmersmarket.utils.toLocation
-import com.ilatyphi95.farmersmarket.utils.toTimeStamp
+import com.example.kisaanconnect.data.entities.*
+import com.example.kisaanconnect.data.repository.ProductGenerator.generateLocation
+import com.example.kisaanconnect.utils.longToLocalDateTime
+import com.example.kisaanconnect.utils.toLocation
+import com.example.kisaanconnect.utils.toTimeStamp
 import com.thedeanda.lorem.LoremIpsum
 import kotlinx.coroutines.delay
 import kotlin.random.Random

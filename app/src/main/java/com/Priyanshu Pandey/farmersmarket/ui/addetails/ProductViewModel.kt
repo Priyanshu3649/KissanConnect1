@@ -1,13 +1,13 @@
-package com.ilatyphi95.farmersmarket.ui.addetails
+package com.example.kisaanconnect.ui.addetails
 
 import androidx.lifecycle.*
-import com.ilatyphi95.farmersmarket.data.entities.Product
-import com.ilatyphi95.farmersmarket.data.entities.User
-import com.ilatyphi95.farmersmarket.data.universaladapter.RecyclerItem
-import com.ilatyphi95.farmersmarket.firebase.addToInterested
-import com.ilatyphi95.farmersmarket.firebase.addToRecent
-import com.ilatyphi95.farmersmarket.firebase.services.ProductServices
-import com.ilatyphi95.farmersmarket.utils.*
+import com.example.kisaanconnect.data.entities.Product
+import com.example.kisaanconnect.data.entities.User
+import com.example.kisaanconnect.data.universaladapter.RecyclerItem
+import com.example.kisaanconnect.firebase.addToInterested
+import com.example.kisaanconnect.firebase.addToRecent
+import com.example.kisaanconnect.firebase.services.ProductServices
+import com.example.kisaanconnect.utils.*
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.launch
 

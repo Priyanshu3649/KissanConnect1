@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.ads
+package com.example.kisaanconnect.ui.ads
 
 import android.content.pm.PackageManager
 import android.os.Bundle
@@ -12,12 +12,12 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.tabs.TabLayoutMediator
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.data.entities.Product
-import com.ilatyphi95.farmersmarket.databinding.FragmentPagerBinding
-import com.ilatyphi95.farmersmarket.firebase.services.ProductServices
-import com.ilatyphi95.farmersmarket.utils.EventObserver
-import com.ilatyphi95.farmersmarket.utils.LocationUtils
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.data.entities.Product
+import com.example.kisaanconnect.databinding.FragmentPagerBinding
+import com.example.kisaanconnect.firebase.services.ProductServices
+import com.example.kisaanconnect.utils.EventObserver
+import com.example.kisaanconnect.utils.LocationUtils
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 

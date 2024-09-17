@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.ilatyphi95.farmersmarket.ui.home.HomeViewModel" />
+            type="com.example.kisaanconnect.ui.home.HomeViewModel" />
         <import type="android.view.View" />
 
     </data>

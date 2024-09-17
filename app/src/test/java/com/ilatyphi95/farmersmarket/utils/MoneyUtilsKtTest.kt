@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.utils
+package com.example.kisaanconnect.utils
 
 import org.joda.money.CurrencyUnit
 import org.joda.money.Money

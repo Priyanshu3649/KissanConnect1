@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.utils
+package com.example.kisaanconnect.utils
 
 import android.Manifest
 import android.content.IntentSender
@@ -12,7 +12,7 @@ import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.OnLifecycleEvent
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.location.*
-import com.ilatyphi95.farmersmarket.data.entities.MyLocation
+import com.example.kisaanconnect.data.entities.MyLocation
 
 const val CHECK_LOCATION_SETTING = 10001
 

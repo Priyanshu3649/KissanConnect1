@@ -1,11 +1,11 @@
-package com.ilatyphi95.farmersmarket.ui.message
+package com.example.kisaanconnect.ui.message
 
 import androidx.lifecycle.*
-import com.ilatyphi95.farmersmarket.data.universaladapter.RecyclerItem
-import com.ilatyphi95.farmersmarket.firebase.services.ProductServices
-import com.ilatyphi95.farmersmarket.utils.Event
-import com.ilatyphi95.farmersmarket.utils.MessageItemViewModel
-import com.ilatyphi95.farmersmarket.utils.toRecyclerItem
+import com.example.kisaanconnect.data.universaladapter.RecyclerItem
+import com.example.kisaanconnect.firebase.services.ProductServices
+import com.example.kisaanconnect.utils.Event
+import com.example.kisaanconnect.utils.MessageItemViewModel
+import com.example.kisaanconnect.utils.toRecyclerItem
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 @ExperimentalCoroutinesApi

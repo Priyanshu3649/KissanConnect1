@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.utils
+package com.example.kisaanconnect.utils
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import org.junit.Assert.assertEquals

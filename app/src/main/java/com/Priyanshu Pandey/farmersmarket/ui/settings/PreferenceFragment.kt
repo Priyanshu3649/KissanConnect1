@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.settings
+package com.example.kisaanconnect.ui.settings
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatDelegate
@@ -7,8 +7,8 @@ import androidx.preference.ListPreference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.PreferenceScreen
 import com.google.firebase.auth.FirebaseAuth
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.data.repository.FirebaseMessagingService
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.data.repository.FirebaseMessagingService
 
 class PreferenceFragment : PreferenceFragmentCompat() {
 

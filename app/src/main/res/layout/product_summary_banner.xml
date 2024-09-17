@@ -6,8 +6,8 @@
     <data>
         <variable
             name="product"
-            type="com.ilatyphi95.farmersmarket.data.entities.Product" />
-        <import type="com.ilatyphi95.farmersmarket.utils.MoneyUtilsKt" />
+            type="com.example.kisaanconnect.data.entities.Product" />
+        <import type="com.example.kisaanconnect.utils.MoneyUtilsKt" />
 
     </data>
 

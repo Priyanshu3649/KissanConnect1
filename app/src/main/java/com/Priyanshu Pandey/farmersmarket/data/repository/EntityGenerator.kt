@@ -1,7 +1,7 @@
-package com.ilatyphi95.farmersmarket.data.repository
+package com.example.kisaanconnect.data.repository
 
-import com.ilatyphi95.farmersmarket.data.entities.MyLocation
-import com.ilatyphi95.farmersmarket.data.entities.Product
+import com.example.kisaanconnect.data.entities.MyLocation
+import com.example.kisaanconnect.data.entities.Product
 import com.thedeanda.lorem.LoremIpsum
 import kotlin.random.Random
 

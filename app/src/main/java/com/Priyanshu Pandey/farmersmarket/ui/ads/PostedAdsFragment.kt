@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.ads
+package com.example.kisaanconnect.ui.ads
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.viewModels
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.databinding.FragmentPostedAdsBinding
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.databinding.FragmentPostedAdsBinding
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 

@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.data.entities
+package com.example.kisaanconnect.data.entities
 
 import android.os.Parcelable
 import com.google.firebase.firestore.DocumentId

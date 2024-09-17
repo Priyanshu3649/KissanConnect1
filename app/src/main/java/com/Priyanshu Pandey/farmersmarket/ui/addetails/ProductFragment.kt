@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.addetails
+package com.example.kisaanconnect.ui.addetails
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -14,11 +14,11 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.PagerSnapHelper
-import com.ilatyphi95.farmersmarket.data.universaladapter.OnSnapPositionChangeListener
-import com.ilatyphi95.farmersmarket.data.universaladapter.attachSnapHelperWithListener
-import com.ilatyphi95.farmersmarket.databinding.FragmentProductBinding
-import com.ilatyphi95.farmersmarket.firebase.services.ProductServices
-import com.ilatyphi95.farmersmarket.utils.EventObserver
+import com.example.kisaanconnect.data.universaladapter.OnSnapPositionChangeListener
+import com.example.kisaanconnect.data.universaladapter.attachSnapHelperWithListener
+import com.example.kisaanconnect.databinding.FragmentProductBinding
+import com.example.kisaanconnect.firebase.services.ProductServices
+import com.example.kisaanconnect.utils.EventObserver
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 /**

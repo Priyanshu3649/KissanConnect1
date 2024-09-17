@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.firebase
+package com.example.kisaanconnect.firebase
 
 import androidx.lifecycle.LiveData
 import com.google.firebase.auth.FirebaseAuth

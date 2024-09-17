@@ -1,11 +1,11 @@
-package com.ilatyphi95.farmersmarket.ui.registration
+package com.example.kisaanconnect.ui.registration
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import androidx.core.content.ContextCompat
 import com.google.android.material.textfield.TextInputEditText
-import com.ilatyphi95.farmersmarket.R
+import com.example.kisaanconnect.R
 
 class CustomEditText @JvmOverloads
     constructor(private val myContext: Context, attrs: AttributeSet) :

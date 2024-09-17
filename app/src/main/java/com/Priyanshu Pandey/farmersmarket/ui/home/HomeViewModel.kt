@@ -1,15 +1,15 @@
-package com.ilatyphi95.farmersmarket.ui.home
+package com.example.kisaanconnect.ui.home
 
 import androidx.lifecycle.*
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import androidx.paging.map
-import com.ilatyphi95.farmersmarket.data.entities.AdItem
-import com.ilatyphi95.farmersmarket.data.entities.Product
-import com.ilatyphi95.farmersmarket.data.universaladapter.RecyclerItem
-import com.ilatyphi95.farmersmarket.firebase.addToRecent
-import com.ilatyphi95.farmersmarket.firebase.services.ProductServices
-import com.ilatyphi95.farmersmarket.utils.*
+import com.example.kisaanconnect.data.entities.AdItem
+import com.example.kisaanconnect.data.entities.Product
+import com.example.kisaanconnect.data.universaladapter.RecyclerItem
+import com.example.kisaanconnect.firebase.addToRecent
+import com.example.kisaanconnect.firebase.services.ProductServices
+import com.example.kisaanconnect.utils.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow

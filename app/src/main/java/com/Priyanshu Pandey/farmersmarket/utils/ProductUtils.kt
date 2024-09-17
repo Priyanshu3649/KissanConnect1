@@ -1,10 +1,10 @@
-package com.ilatyphi95.farmersmarket.utils
+package com.example.kisaanconnect.utils
 
-import com.ilatyphi95.farmersmarket.BR
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.data.entities.AdItem
-import com.ilatyphi95.farmersmarket.data.entities.Product
-import com.ilatyphi95.farmersmarket.data.universaladapter.RecyclerItem
+import com.example.kisaanconnect.BR
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.data.entities.AdItem
+import com.example.kisaanconnect.data.entities.Product
+import com.example.kisaanconnect.data.universaladapter.RecyclerItem
 
 class ProductSmallBannerViewModel(val adItem: AdItem) {
     lateinit var itemClickHandler: (adItem: AdItem) -> Unit

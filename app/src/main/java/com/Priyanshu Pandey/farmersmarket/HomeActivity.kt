@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket
+package com.example.kisaanconnect
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

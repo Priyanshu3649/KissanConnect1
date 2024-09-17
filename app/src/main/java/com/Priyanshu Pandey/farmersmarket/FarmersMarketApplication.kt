@@ -1,11 +1,11 @@
-package com.ilatyphi95.farmersmarket
+package com.example.kisaanconnect
 
 import android.app.Application
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.preference.PreferenceManager
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
-import com.ilatyphi95.farmersmarket.utils.NightMode
+import com.example.kisaanconnect.utils.NightMode
 import com.jakewharton.threetenabp.AndroidThreeTen
 import java.util.*
 

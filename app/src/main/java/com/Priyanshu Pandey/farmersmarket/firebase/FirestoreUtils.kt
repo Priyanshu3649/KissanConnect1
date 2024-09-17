@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.firebase
+package com.example.kisaanconnect.firebase
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
@@ -6,8 +6,8 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.OnLifecycleEvent
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.*
-import com.ilatyphi95.farmersmarket.data.entities.AdItem
-import com.ilatyphi95.farmersmarket.data.entities.Product
+import com.example.kisaanconnect.data.entities.AdItem
+import com.example.kisaanconnect.data.entities.Product
 
 fun addToInterested(product: Product) {
     val user = FirebaseAuth.getInstance().currentUser!!

@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.ilatyphi95.farmersmarket.ui.chat.ChatFragmentViewModel" />
+            type="com.example.kisaanconnect.ui.chat.ChatFragmentViewModel" />
 
     </data>
 

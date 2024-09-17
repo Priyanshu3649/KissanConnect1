@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.ilatyphi95.farmersmarket.ui.settings.UserAccountViewModel" />
+            type="com.example.kisaanconnect.ui.settings.UserAccountViewModel" />
 
     </data>
 

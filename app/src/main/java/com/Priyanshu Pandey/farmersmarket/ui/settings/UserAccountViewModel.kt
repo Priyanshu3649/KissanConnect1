@@ -1,14 +1,14 @@
-package com.ilatyphi95.farmersmarket.ui.settings
+package com.example.kisaanconnect.ui.settings
 
 import android.app.Application
 import android.net.Uri
 import android.view.View
 import androidx.annotation.StringRes
 import androidx.lifecycle.*
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.data.entities.User
-import com.ilatyphi95.farmersmarket.firebase.services.ProductServices
-import com.ilatyphi95.farmersmarket.utils.Event
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.data.entities.User
+import com.example.kisaanconnect.firebase.services.ProductServices
+import com.example.kisaanconnect.utils.Event
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.launch
 

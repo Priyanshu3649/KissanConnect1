@@ -1,8 +1,8 @@
-package com.ilatyphi95.farmersmarket.data.repository
+package com.example.kisaanconnect.data.repository
 
 import android.net.Uri
 import androidx.lifecycle.LiveData
-import com.ilatyphi95.farmersmarket.data.entities.*
+import com.example.kisaanconnect.data.entities.*
 
 interface IRepository {
     fun searchProducts(searchString: String): LiveData<List<Product>>

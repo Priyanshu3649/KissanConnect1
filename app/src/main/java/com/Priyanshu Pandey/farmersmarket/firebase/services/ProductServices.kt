@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.firebase.services
+package com.example.kisaanconnect.firebase.services
 
 import android.app.Application
 import android.net.Uri
@@ -16,10 +16,10 @@ import com.google.firebase.firestore.SetOptions
 import com.google.firebase.firestore.ktx.toObject
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageException
-import com.ilatyphi95.farmersmarket.data.DeleteImageWorker
-import com.ilatyphi95.farmersmarket.data.ProductPagingSource
-import com.ilatyphi95.farmersmarket.data.entities.*
-import com.ilatyphi95.farmersmarket.ui.modifyad.KEY_IMAGE_URL
+import com.example.kisaanconnect.data.DeleteImageWorker
+import com.example.kisaanconnect.data.ProductPagingSource
+import com.example.kisaanconnect.data.entities.*
+import com.example.kisaanconnect.ui.modifyad.KEY_IMAGE_URL
 import com.koalap.geofirestore.GeoFire
 import com.koalap.geofirestore.GeoLocation
 import kotlinx.coroutines.ExperimentalCoroutinesApi

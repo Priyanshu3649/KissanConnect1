@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.data.repository
+package com.example.kisaanconnect.data.repository
 
 import android.os.Bundle
 import android.util.Log
@@ -12,8 +12,8 @@ import com.google.firebase.firestore.SetOptions
 import com.google.firebase.messaging.FirebaseMessaging
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
-import com.ilatyphi95.farmersmarket.HomeActivity
-import com.ilatyphi95.farmersmarket.R
+import com.example.kisaanconnect.HomeActivity
+import com.example.kisaanconnect.R
 
 const val MESSAGE_NOTIFICATION_CHANNEL_ID = "message_notification_channel"
 class FirebaseMessagingService : FirebaseMessagingService() {

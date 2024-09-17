@@ -6,8 +6,8 @@
     <data>
         <variable
             name="viewModel"
-            type="com.ilatyphi95.farmersmarket.utils.CloseProductViewModel" />
-        <import type="com.ilatyphi95.farmersmarket.utils.MoneyUtilsKt"/>
+            type="com.example.kisaanconnect.utils.CloseProductViewModel" />
+        <import type="com.example.kisaanconnect.utils.MoneyUtilsKt"/>
 
     </data>
 

@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.ilatyphi95.farmersmarket.ui.ads.AdsFragmentViewModel" />
+            type="com.example.kisaanconnect.ui.ads.AdsFragmentViewModel" />
 
     </data>
 

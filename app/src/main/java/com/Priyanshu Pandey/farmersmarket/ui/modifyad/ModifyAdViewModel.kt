@@ -1,15 +1,15 @@
-package com.ilatyphi95.farmersmarket.ui.modifyad
+package com.example.kisaanconnect.ui.modifyad
 
 import android.app.Application
 import android.net.Uri
 import androidx.lifecycle.*
 import androidx.work.*
-import com.ilatyphi95.farmersmarket.data.entities.Category
-import com.ilatyphi95.farmersmarket.data.entities.MyLocation
-import com.ilatyphi95.farmersmarket.data.entities.Product
-import com.ilatyphi95.farmersmarket.data.universaladapter.RecyclerItem
-import com.ilatyphi95.farmersmarket.firebase.services.ProductServices
-import com.ilatyphi95.farmersmarket.utils.*
+import com.example.kisaanconnect.data.entities.Category
+import com.example.kisaanconnect.data.entities.MyLocation
+import com.example.kisaanconnect.data.entities.Product
+import com.example.kisaanconnect.data.universaladapter.RecyclerItem
+import com.example.kisaanconnect.firebase.services.ProductServices
+import com.example.kisaanconnect.utils.*
 import kotlinx.coroutines.*
 import java.util.*
 

@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.ilatyphi95.farmersmarket.ui.home.HomeFragment"
+        android:name="com.example.kisaanconnect.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home">
         <action
@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/navigation_message"
-        android:name="com.ilatyphi95.farmersmarket.ui.message.MessageFragment"
+        android:name="com.example.kisaanconnect.ui.message.MessageFragment"
         android:label="@string/title_message"
         tools:layout="@layout/fragment_message">
         <action
@@ -29,7 +29,7 @@
     <!--    for testing purpose don't forget to remove it-->
     <fragment
         android:id="@+id/productFragment"
-        android:name="com.ilatyphi95.farmersmarket.ui.addetails.ProductFragment"
+        android:name="com.example.kisaanconnect.ui.addetails.ProductFragment"
         android:label="@string/string_product_details">
         <action
             android:id="@+id/action_productFragment_self"
@@ -38,14 +38,14 @@
             app:popUpToInclusive="true" />
         <argument
             android:name="product"
-            app:argType="com.ilatyphi95.farmersmarket.data.entities.Product" />
+            app:argType="com.example.kisaanconnect.data.entities.Product" />
         <action
             android:id="@+id/action_productFragment_to_chatFragment"
             app:destination="@id/chatFragment" />
     </fragment>
     <fragment
         android:id="@+id/navigation_pager"
-        android:name="com.ilatyphi95.farmersmarket.ui.ads.PagerFragment"
+        android:name="com.example.kisaanconnect.ui.ads.PagerFragment"
         android:label="@string/ads"
         tools:layout="@layout/fragment_pager">
         <action
@@ -57,12 +57,12 @@
     </fragment>
     <fragment
         android:id="@+id/modifyAdFragment"
-        android:name="com.ilatyphi95.farmersmarket.ui.modifyad.ModifyAdsFragment"
+        android:name="com.example.kisaanconnect.ui.modifyad.ModifyAdsFragment"
         android:label="@string/new_ad">
         <argument
             android:name="product"
             android:defaultValue="@null"
-            app:argType="com.ilatyphi95.farmersmarket.data.entities.Product"
+            app:argType="com.example.kisaanconnect.data.entities.Product"
             app:nullable="true" />
         <action
             android:id="@+id/action_addProductFragment_to_navigation_pager"
@@ -71,7 +71,7 @@
 
     <fragment
         android:id="@+id/chatFragment"
-        android:name="com.ilatyphi95.farmersmarket.ui.chat.ChatFragment"
+        android:name="com.example.kisaanconnect.ui.chat.ChatFragment"
         tools:layout="@layout/fragment_chat">
         <action
             android:id="@+id/action_chatFragment_to_productFragment"
@@ -82,7 +82,7 @@
     </fragment>
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.ilatyphi95.farmersmarket.ui.registration.SplashFragment"
+        android:name="com.example.kisaanconnect.ui.registration.SplashFragment"
         android:label=" ">
         <action
             android:id="@+id/action_splashFragment_to_loginFragment2"
@@ -97,7 +97,7 @@
     </fragment>
     <fragment
         android:id="@+id/signUpFragment2"
-        android:name="com.ilatyphi95.farmersmarket.ui.registration.SignUpFragment"
+        android:name="com.example.kisaanconnect.ui.registration.SignUpFragment"
         android:label="@string/sign_up">
         <action
             android:id="@+id/action_signUpFragment2_to_loginFragment2"
@@ -107,7 +107,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment2"
-        android:name="com.ilatyphi95.farmersmarket.ui.registration.LoginFragment"
+        android:name="com.example.kisaanconnect.ui.registration.LoginFragment"
         android:label="@string/login">
         <action
             android:id="@+id/action_loginFragment2_to_navigation_home"
@@ -120,7 +120,7 @@
     </fragment>
     <fragment
         android:id="@+id/preferenceFragment"
-        android:name="com.ilatyphi95.farmersmarket.ui.settings.PreferenceFragment"
+        android:name="com.example.kisaanconnect.ui.settings.PreferenceFragment"
         android:label="@string/title_settings">
         <action
             android:id="@+id/action_preferenceFragment_to_loginFragment2"
@@ -133,7 +133,7 @@
     </fragment>
     <fragment
         android:id="@+id/userAccountFragment"
-        android:name="com.ilatyphi95.farmersmarket.ui.settings.UserAccountFragment"
+        android:name="com.example.kisaanconnect.ui.settings.UserAccountFragment"
         android:label="@string/string_user_account"
         tools:layout="@layout/user_account_fragment" />
 </navigation>

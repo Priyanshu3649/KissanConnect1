@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.registration
+package com.example.kisaanconnect.ui.registration
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,9 +9,9 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.FragmentNavigatorExtras
 import androidx.navigation.fragment.findNavController
 import com.google.firebase.auth.FirebaseAuth
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.databinding.FragmentSplashBinding
-import com.ilatyphi95.farmersmarket.utils.*
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.databinding.FragmentSplashBinding
+import com.example.kisaanconnect.utils.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.message
+package com.example.kisaanconnect.ui.message
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,10 +8,10 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.databinding.FragmentMessageBinding
-import com.ilatyphi95.farmersmarket.firebase.services.ProductServices
-import com.ilatyphi95.farmersmarket.utils.EventObserver
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.databinding.FragmentMessageBinding
+import com.example.kisaanconnect.firebase.services.ProductServices
+import com.example.kisaanconnect.utils.EventObserver
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 @ExperimentalCoroutinesApi

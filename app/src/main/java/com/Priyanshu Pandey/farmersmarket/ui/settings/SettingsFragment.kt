@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.settings
+package com.example.kisaanconnect.ui.settings
 
 import android.location.Geocoder
 import android.os.Bundle
@@ -14,10 +14,10 @@ import androidx.lifecycle.ViewModelProvider
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.SetOptions
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.data.entities.MyLocation
-import com.ilatyphi95.farmersmarket.data.repository.FirebaseMessagingService
-import com.ilatyphi95.farmersmarket.utils.LocationUtils
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.data.entities.MyLocation
+import com.example.kisaanconnect.data.repository.FirebaseMessagingService
+import com.example.kisaanconnect.utils.LocationUtils
 import java.io.IOException
 import java.util.*
 import kotlin.collections.HashMap

@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.utils
+package com.example.kisaanconnect.utils
 
 import android.graphics.BitmapFactory
 import android.graphics.drawable.Drawable
@@ -11,11 +11,11 @@ import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.google.firebase.Timestamp
-import com.ilatyphi95.farmersmarket.FarmersMarketApplication
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.data.entities.CloseByProduct
-import com.ilatyphi95.farmersmarket.data.universaladapter.DataBindingRecyclerAdapter
-import com.ilatyphi95.farmersmarket.data.universaladapter.RecyclerItem
+import com.example.kisaanconnect.FarmersMarketApplication
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.data.entities.CloseByProduct
+import com.example.kisaanconnect.data.universaladapter.DataBindingRecyclerAdapter
+import com.example.kisaanconnect.data.universaladapter.RecyclerItem
 import org.joda.money.Money
 import org.threeten.bp.format.DateTimeFormatter
 

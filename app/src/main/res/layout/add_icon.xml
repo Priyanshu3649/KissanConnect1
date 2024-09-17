@@ -5,7 +5,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.ilatyphi95.farmersmarket.utils.PictureIconViewModel" />
+            type="com.example.kisaanconnect.utils.PictureIconViewModel" />
 
     </data>
 

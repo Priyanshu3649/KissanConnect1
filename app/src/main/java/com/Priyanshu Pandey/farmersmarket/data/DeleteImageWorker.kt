@@ -1,11 +1,11 @@
-package com.ilatyphi95.farmersmarket.data
+package com.example.kisaanconnect.data
 
 import android.content.Context
 import android.util.Log
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
-import com.ilatyphi95.farmersmarket.firebase.services.ProductServices
-import com.ilatyphi95.farmersmarket.ui.modifyad.KEY_IMAGE_URL
+import com.example.kisaanconnect.firebase.services.ProductServices
+import com.example.kisaanconnect.ui.modifyad.KEY_IMAGE_URL
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 @ExperimentalCoroutinesApi

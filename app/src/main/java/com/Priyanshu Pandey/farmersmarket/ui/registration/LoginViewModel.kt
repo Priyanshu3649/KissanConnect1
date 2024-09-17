@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.registration
+package com.example.kisaanconnect.ui.registration
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

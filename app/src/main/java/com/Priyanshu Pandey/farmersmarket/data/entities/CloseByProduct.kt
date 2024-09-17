@@ -1,3 +1,3 @@
-package com.ilatyphi95.farmersmarket.data.entities
+package com.example.kisaanconnect.data.entities
 
 data class CloseByProduct constructor(val product: Product, val distance: Float)

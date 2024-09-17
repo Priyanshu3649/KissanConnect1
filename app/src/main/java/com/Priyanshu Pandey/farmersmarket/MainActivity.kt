@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket
+package com.example.kisaanconnect
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -17,8 +17,8 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.firebase.auth.FirebaseAuth
-import com.ilatyphi95.farmersmarket.data.repository.MESSAGE_NOTIFICATION_CHANNEL_ID
-import com.ilatyphi95.farmersmarket.utils.NetworkAvailabilityUtils
+import com.example.kisaanconnect.data.repository.MESSAGE_NOTIFICATION_CHANNEL_ID
+import com.example.kisaanconnect.utils.NetworkAvailabilityUtils
 
 
 class MainActivity : AppCompatActivity() {

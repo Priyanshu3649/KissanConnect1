@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.ui.settings
+package com.example.kisaanconnect.ui.settings
 
 import android.content.pm.PackageManager
 import android.location.Geocoder
@@ -17,13 +17,13 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationResult
 import com.google.android.material.snackbar.Snackbar
-import com.ilatyphi95.farmersmarket.R
-import com.ilatyphi95.farmersmarket.data.entities.MyLocation
-import com.ilatyphi95.farmersmarket.databinding.UserAccountFragmentBinding
-import com.ilatyphi95.farmersmarket.firebase.services.ProductServices
-import com.ilatyphi95.farmersmarket.utils.EventObserver
-import com.ilatyphi95.farmersmarket.utils.LocationUtils
-import com.ilatyphi95.farmersmarket.utils.NetworkAvailabilityUtils
+import com.example.kisaanconnect.R
+import com.example.kisaanconnect.data.entities.MyLocation
+import com.example.kisaanconnect.databinding.UserAccountFragmentBinding
+import com.example.kisaanconnect.firebase.services.ProductServices
+import com.example.kisaanconnect.utils.EventObserver
+import com.example.kisaanconnect.utils.LocationUtils
+import com.example.kisaanconnect.utils.NetworkAvailabilityUtils
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import java.io.IOException
 import java.util.*

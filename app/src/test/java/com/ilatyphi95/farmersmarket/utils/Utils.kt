@@ -1,4 +1,4 @@
-package com.ilatyphi95.farmersmarket.utils
+package com.example.kisaanconnect.utils
 
 import org.threeten.bp.zone.TzdbZoneRulesProvider
 import org.threeten.bp.zone.ZoneRulesProvider
