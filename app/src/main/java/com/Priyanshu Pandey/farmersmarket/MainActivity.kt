@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp() || super.onSupportNavigateUp()
     }
 
-    //Checks if user is logged in
+    
     private fun verifyUserLoggedIn() {
         val uid = FirebaseAuth.getInstance().uid
 
@@ -89,14 +89,9 @@ class MainActivity : AppCompatActivity() {
             val navController = navHostFragment.navController
 
         }else{
-            // Passing each menu ID as a set of Ids because each
-            // menu should be considered as top level destinations.
-            val appBarConfiguration = AppBarConfiguration(setOf(
+           val appBarConfiguration = AppBarConfiguration(setOf(
                 R.id.navigation_home, R.id.navigation_message, R.id.preferenceFragment))
-
-//        setupActionBarWithNavController(navController, appBarConfiguration)
-//            navView?.setupWithNavController(navController!!)
-        }
+       }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

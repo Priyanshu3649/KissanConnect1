@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "635045937773",
+    "project_id": "kisaanconnect-c79d3",
+    "storage_bucket": "kisaanconnect-c79d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635045937773:android:a9eaaa4926f30bdd74b564",
+        "android_client_info": {
+          "package_name": "com.example.kisaanconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635045937773-f34go03l98i4ifhsgj6s6q8p99o6pg63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAtrj61np2ygKvUxgojFRx6VPxbuTsm80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635045937773-f34go03l98i4ifhsgj6s6q8p99o6pg63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635045937773:android:65e9967988cd443074b564",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635045937773-f34go03l98i4ifhsgj6s6q8p99o6pg63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAtrj61np2ygKvUxgojFRx6VPxbuTsm80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635045937773-f34go03l98i4ifhsgj6s6q8p99o6pg63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

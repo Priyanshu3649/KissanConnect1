@@ -13,8 +13,6 @@ class FarmersMarketApplication: Application() {
 
     override fun onCreate() {
         super.onCreate()
-
-        // initialize the time library
         AndroidThreeTen.init(this)
         val preferences = PreferenceManager.getDefaultSharedPreferences(applicationContext)
         preferences.getString(
